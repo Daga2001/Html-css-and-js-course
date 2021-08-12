@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <form autocomplete="off">
+      <fieldset>
+        <legend>User's data:</legend>
+        <input type="hidden" id="system" name="system" value="ubuntu"/>
+        <div>
+          <label for="id">User id:</label>
+          <input type="id" name="id" id="id" value="100" readonly="true" disabled="true"/>
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="write your name" required="true"/>
+        </div>
+        <div>
+          <label for="surname">Surname:</label>
+          <input type="text" name="surname" id="surname" placeholder="write your surname" required="true"/>
+        </div>
+        <div>
+          <Label for="cellphone">Cellphone:</Label>   
+          <input type="text" id="cellphone" name="cellphone" placeholder="write your cellphone" required="true"/>
+        </div>
+        <div>
+          <Label for="email">Email:</Label>
+          <input type="email" id="email" name="email" placeholder="Type your email address"/>
+        </div>
+        <div>
+          <Label for="password">Password:</Label>
+          <input type="password" id="Password" name="password" placeholder="type your password" />
+        </div>
+        <div>
+          <label>Gender:</label><br />
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" >
+          <label for="female">Female</label>
+        </div>
+        <di>
+          <Label for="age">Age:</Label>
+          <input type="number" id="age" name="age" placeholder="type your age" step="any"/>
+        </di>
+        <div>
+          <label>Favorite Music Genre</label><br/>
+          <input type="checkbox" id="jazz" name="music" value="jazz"/>
+          <label for="jazz">Jazz</label>
+          <input type="checkbox" id="rock" name="music" value="rock"/>
+          <Label for="rock">Rock</Label>
+        </div>
+        <div>
+          <label for="cars">What's your favorite car brand?</label><br/>
+          <select id="cars" name="cars" multiple="true">
+            <option value="Ford">Ford</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini">Lamborghini</option>
+          </select> 
+        </div> 
+        <div>
+          <label for="comment">Comment</label><br/>
+          <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+
+        </div>
+        <div>
+          <input type="submit" value="send"/>
+          <input type="submit" formnovalidate="formnovalidate" value="send without validation"/>
+          <input type="reset" value="reset"/>
+        </div>
+      </fieldset>    
+    </form>
+  </body>
+</html>

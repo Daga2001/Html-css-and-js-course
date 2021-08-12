@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.box{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+div.box.decedent p{
+    background-color: #fdffb6;
+}
+div.box.child > p{
+    background-color: #ff6cff;
+}
+div.box.adjacent + p{
+    background-color: #caffbf;
+}
+div.box.sibling ~ p{
+    background-color: #9bf6ff;
+}
+div.box:hover{
+    background-color: #457b9d;
+    color: #f1faee;
+}
+div.box.hidden p{
+    display: none;
+}
+div.box.hidden:hover p{
+    display: block;
+    background-color: #a8dadc;
+    color: #823e8a;
+    padding: 15px;
+}
+div.box.first p:first-child{
+    font-variant: small-caps;
+}
+div.box p::selection{
+    color:red;
+    background-color: yellow;
+}
+div.box p::first-line{
+    font-variant: small-caps;
+    color:red;
+}
+div.box p::first-letter{
+    color:blue;
+    
+}
+div.box p::after{
+    content: "- after";
+    font-weight: bolder;
+}
+div.box p::before{
+    content: "before -";
+    font-weight: bolder;
+}

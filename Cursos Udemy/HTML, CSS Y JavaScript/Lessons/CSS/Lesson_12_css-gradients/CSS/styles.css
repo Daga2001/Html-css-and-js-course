@@ -1,0 +1,32 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    /*background: linear-gradient(rgb(218, 42, 36),80%,rgb(18, 18, 163));*/
+    background: radial-gradient(circle, rgb(19, 220, 247),80%,rgb(13, 233, 185)); 
+}
+h1{
+    text-align: center;
+    color: rgba(7, 75, 87, 0.89);
+    text-shadow: 3px 3px 3px rgba(7, 75, 87, 0.616);
+    box-shadow: 3px 3px 3px rgba(7, 75, 87, 0.616);;
+}
+div.box{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    
+}
+div.header{
+    background-color: #4cc9f0;
+}
+div.body{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(177,177,177);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML DOM with JavaScript</title>
+    <style>
+        .blue{
+            color: blue;
+        }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+        Name: <input type="text" name="name" value="Juan"/>
+        <br />
+        Last Name: <input type="text" name="lastName" value="Perez"/>
+        <br />
+    </form>
+    <button onclick="showValues()">
+        Show
+    </button>
+    <div id="values"></div>
+    <script>
+        function showValues(){
+            let form = document.forms['form'];
+            let text = '';
+            let name = form['name'];
+            let lastName = form['lastName'];
+            let text2 = name.value + '<br/>' + lastName.value;
+            for( let element of form ){
+                text += element.value + '<br/>';
+            }
+            console.log( text );
+            document.getElementById("values").innerHTML = text2;
+        }
+    </script>
+  </body>
+</html>

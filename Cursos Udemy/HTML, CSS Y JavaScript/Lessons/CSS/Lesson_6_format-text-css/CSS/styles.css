@@ -1,0 +1,25 @@
+h1{
+    color:rgba(233, 20, 20, 0.74);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+.box{
+    padding: 15px;
+    margin:auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color:whitesmoke
+}
+.text{
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 1.9;
+    white-space: normal;
+    text-shadow: 3px 3px 2px #ced4da;
+}

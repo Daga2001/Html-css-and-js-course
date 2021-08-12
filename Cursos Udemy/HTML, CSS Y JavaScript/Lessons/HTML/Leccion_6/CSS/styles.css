@@ -1,0 +1,44 @@
+
+#titulo_principal{
+    color: #f72585;
+    text-align: center;
+    margin: 15px;
+}
+h1{
+    color: #f72585;
+    text-align: center;
+}
+h2{
+    color: #3f37c9;
+}
+p{
+    color:#457b9d;
+}
+.based{
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 10px 115px;
+    padding: 15px;
+}
+div p span{
+    color: orange;
+}
+.markxD{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+.bottom{
+    color: blue;
+    background-color: white;
+    text-align: center;
+    border: 1px solid purple;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+.bottom:hover{
+    color:white;
+    background-color: #3f37c9;
+}

@@ -1,0 +1,11 @@
+#title{
+    text-align: center;
+    color: blue;
+    font-size: 100px;
+}
+*{
+    color: chartreuse;
+}
+p.subclass{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color:red;
+}
+div.absolute{
+    border: 3px solid crimson;
+    margin: auto;
+    max-width: 50%;
+    position: absolute;
+    top:0;
+    right:0;
+    display: inline;
+}
+div.relative{
+    position: relative;
+    border: 3px solid blue;
+    width: 500px;
+    height: 200px;
+}
+div.static{
+    position: static;
+    top: 10px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relative2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    z-index:-1;
+}
+div.absolute2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,30 @@
+h1{
+    color: rgb(233, 16, 16);
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    background-color: gray;
+    width: 70%;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+.box{
+    color:#fff;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 15px auto;
+    padding: 10px 0 25px;
+    float: left;
+}
+.red{
+    background-color: rgba(233, 16, 16, 0.884);
+}
+.pink{
+    background-color: rgba(214, 21, 57, 0.685);
+}

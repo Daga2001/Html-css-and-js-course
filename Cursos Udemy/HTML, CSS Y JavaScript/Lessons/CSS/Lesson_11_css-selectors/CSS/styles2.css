@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.box{
+    border: 3px solid rgba(52, 145, 252, 0.411);
+    margin: auto;
+    padding: 15px;
+    width: 200px;
+    height: 270px;
+}
+div.box.one p{
+    color:rgba(52, 145, 252, 0.411);
+    text-align: center;
+}
+div.box.one img{
+    position:relative;
+    
+}
+div.box.one img:hover{
+    opacity: 0.25;
+}

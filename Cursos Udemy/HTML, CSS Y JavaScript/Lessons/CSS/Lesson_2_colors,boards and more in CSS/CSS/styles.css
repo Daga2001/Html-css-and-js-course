@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.red{
+    background-color: firebrick;
+    border: 3px solid orangered;
+}
+.pink{
+    background-color: pink;
+    border: 3px dashed cornflowerblue;
+}
+.green{
+    background-color: greenyellow;
+    border: 10px double green;
+}
+.blue{
+    background-color: blue;
+    border: 5px dotted blueviolet;
+}
+.yellow{
+    background-color: yellow;
+    border: 10px groove yellowgreen;
+}
+.purple{
+    background-color: purple;
+    border: 10px inset powderblue;
+}
+.orange{
+    background-color: orange;
+    border-style: dotted dotted groove groove;
+    border-color: palegreen;
+    border-width: thick; 
+}
+.personalized{
+    background-color: #e7f75ab4;
+    border: 10px groove #90e6408e;
+    border-radius: 20px 0;
+    border-width: 10px 5px;
+}
+.color{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 15px auto;
+}

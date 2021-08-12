@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events management with Dom HTML and JavaScript</title>
+  </head>
+  <body onload="enter()">
+      <h1 id="Title" onmousedown="red( this )" onmouseup="blue( this )">DOM maganement with JavaScript</h1>
+      <br/>
+      <form id="shape">
+        Name: <input type="text" id='name'/>
+        <br/><br/>
+        LastName: <input type="text" id="lastName"/>
+      </form>
+      <script>
+          let form = document.getElementById("shape");
+
+          function convert( element ){
+            element.value = element.value.toUpperCase();
+          }
+          function red( element ){
+            element.style.color = 'red';
+          }
+          function blue( element ){
+              element.style.color = 'blue';
+          }
+          function gray( element ){
+              element.target.style.background = '#e8e8e4';
+          }
+          function white( element ){
+              element.target.style.background = 'white';
+          }
+          form.addEventListener('focus', (element) => {
+              gray( element );
+          }, true);
+          form.addEventListener('blur', white, true);
+      </script>
+  </body>
+</html>

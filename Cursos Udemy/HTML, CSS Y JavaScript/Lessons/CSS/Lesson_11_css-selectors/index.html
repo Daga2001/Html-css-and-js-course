@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS selectors</title>
+    <link rel="stylesheet" href="/Lesson_11_css-selectors/CSS/styles.css"/>
+  </head>
+  <body>
+      <h1>Mixed CSS selectors</h1>
+      <div class="decedent box">
+        decedent selectors (in any internal level)
+        <p>first line</p>
+        <p>second line</p>
+        <section>
+            <p>third line</p>
+        </section>
+      </div>
+      <div class="child box">
+        child selectors
+        <p>first line</p>
+        <p>second line</p>
+        <section>
+            <p>third line</p>
+        </section>
+      </div>
+      <div class="adjacent box">
+          adjacent selectors
+          <p>first line</p>
+      </div>
+      <p>second line</p>
+      <p>third line</p>
+      <div class="sibling box">
+        sibling selectors
+        <p>first line</p>
+    </div>
+    <p>second line</p>
+    <p>third line</p>
+  </body>
+</html>

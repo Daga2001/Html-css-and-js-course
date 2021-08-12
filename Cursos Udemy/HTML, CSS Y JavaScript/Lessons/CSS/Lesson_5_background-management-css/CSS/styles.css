@@ -1,0 +1,9 @@
+body{
+    color: cornsilk;
+    background: dodgerblue url("/Lesson_5_background-management-css/images/fondo.png") no-repeat right top;
+    background-attachment: fixed;
+}
+h1{
+    background-color: dodgerblue;
+    text-align: center;
+}
